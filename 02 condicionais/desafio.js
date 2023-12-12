@@ -11,13 +11,13 @@ Você terá 5 variáveis. Sendo elas:
 
 let precoEtanol = 4.75;
 let precoGasolina = 3.5;
-let tipoCombustivel = "etanol";
+let tipoCombustivel = 'etanol';
 let KmPorLitro = 6;
 let DistanciaKm = 978;
 
 let gastoTotal;
 
-if (tipoCombustivel === "etanol") {
+if (tipoCombustivel === 'etanol') {
   gastoTotal = (DistanciaKm / KmPorLitro) * precoEtanol;
 } else {
   gastoTotal = (DistanciaKm / KmPorLitro) * precoGasolina;
